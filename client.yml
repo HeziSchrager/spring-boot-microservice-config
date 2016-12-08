@@ -44,7 +44,7 @@ ribbon:
     enabled: true
 ---
 spring:
-  profiles: development
+  profiles: default
   jpa:
     show_sql: false
     hibernate:
