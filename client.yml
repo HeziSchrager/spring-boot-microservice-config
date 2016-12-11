@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: cloud
+    active: default
 ---
 spring:
   profiles: cloud
@@ -45,12 +45,14 @@ ribbon:
 ---
 spring:
   profiles: default
+  id1: id
   jpa:
     show_sql: false
     hibernate:
       ddl-auto: update
 server:
   port: 9006
+id1: id
 eureka:
   client:
     serviceUrl:
